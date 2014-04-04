@@ -1,0 +1,34 @@
+{
+    "name":             "nosql",
+    "version":          "9.9.9",
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":      "Unnamed NoSQL project based on Strata MVCC.",
+    "keywords":
+    [
+                        "mongodb", "nosql", "database", "b-tree", "mvcc"
+    ],
+    "contributors":     [],
+    "homepage":         "https://github.com/bigeasy/nosql",
+    "bugs":             "https://github.com/bigeasy/nosql/issues",
+    "licenses":
+    [{
+                        "type": "MIT",
+                        "url": "http://github.com/bigeasy/nosql/raw/master/LICENSE"
+    }],
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/nosql.git"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                        "proof":              "0.0.45"
+    },
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}
